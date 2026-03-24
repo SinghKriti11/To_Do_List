@@ -57,3 +57,14 @@
     margin-left:10px;
 }
 
+.row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background:#ffffff;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    flex-wrap: wrap;
+}
