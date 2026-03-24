@@ -137,3 +137,8 @@ ul li::before{
     left: 8px;
     pointer-events: none;
 }
+
+ul li.checked{
+    color: #888;
+    text-decoration: line-through;
+}
