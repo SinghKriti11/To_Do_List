@@ -78,3 +78,13 @@
     font-size: 14px;
 }
 
+#deadline{
+    flex: 1 1 30%;
+    min-width: 110px;
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
