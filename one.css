@@ -39,3 +39,7 @@
     z-index: 1;
     transition: 0.3s;
 }
+
+.todo-app:hover{
+    transform: translateY(-6px);
+}
