@@ -23,21 +23,6 @@ A modern and interactive **To-Do List application** built using HTML, CSS, and J
 
 ---
 
-## 📂 Project Structure
-
-```
-📁 To-Do-App
-│── one.html        # Main HTML file
-│── one.css         # Styling file
-│── one.js          # JavaScript logic
-│── bg.png          # Background image
-│── icon.png        # App icon
-│── checked.png     # Checked task icon
-│── unchecked.png   # Unchecked task icon
-```
-
----
-
 ## ⚙️ How It Works
 
 1. Enter a task in the input field
@@ -47,6 +32,3 @@ A modern and interactive **To-Do List application** built using HTML, CSS, and J
 5. Click ❌ to delete a task
 6. Tasks are saved automatically in browser storage
 
-## 🧑‍💻 Author
-
-**Kriti**
