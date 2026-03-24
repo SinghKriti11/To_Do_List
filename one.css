@@ -106,3 +106,16 @@ button{
 button:hover{
     transform: scale(1.08);
 }
+
+ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 12px 45px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    transition: 0.2s;
+}
