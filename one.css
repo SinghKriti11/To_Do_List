@@ -124,3 +124,16 @@ ul li:hover{
     background: rgba(0,0,0,0.03);
     border-radius: 10px;
 }
+
+ul li::before{
+    content:'';
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-image: url(unchecked.png);
+    background-size: cover;
+    top: 12px;
+    left: 8px;
+    pointer-events: none;
+}
