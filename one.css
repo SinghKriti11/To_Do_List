@@ -88,3 +88,17 @@
     border-radius: 10px;
     font-size: 13px;
 }
+
+button{
+    flex: 0 0 auto;
+    white-space: nowrap;
+    border:none;
+    outline: none;
+    padding: 10px 20px;
+    background: linear-gradient(135deg,#ff5945,#ff7a5c);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+}
