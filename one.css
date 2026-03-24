@@ -25,3 +25,17 @@
     background: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(0,0,0,0.1));
 }
 
+.todo-app{
+    width:100%;
+    max-width:540px;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(20px);
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+    box-shadow: 
+        0 30px 80px rgba(0,0,0,0.25),
+        0 10px 30px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+}
