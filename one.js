@@ -20,7 +20,6 @@ function addTask(){
                 timeLeft = ` (${hours} hrs left)`;
             }
         }
-
         li.innerHTML = taskText + timeLeft;
         listContainer.prepend(li);
         let span=document.createElement("span");
