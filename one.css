@@ -102,3 +102,7 @@ button{
     border-radius: 30px;
     transition: 0.3s;
 }
+
+button:hover{
+    transform: scale(1.08);
+}
