@@ -32,3 +32,19 @@ function addTask(){
     deadlineInput.value = "";
     saveData();
 }
+
+listContainer.addEventListener('click', function(e){
+    if(e.target.tagName.toLowerCase() === "li"){
+        e.target.classList.toggle("checked");
+        if(e.target.classList.contains("checked")){
+            listContainer.appendChild(e.target);
+        } else {
+            listContainer.prepend(e.target);
+        }
+        saveData();
+    }
+    else if(e.target.tagName.toLowerCase() === "span"){
+        e.target.parentElement.remove();
+        saveData();
+    }
+}, false);
