@@ -17,6 +17,7 @@
     justify-content: center;
     position: relative;
 }
+
 .container::before{
     content: "";
     position: absolute;
@@ -68,6 +69,7 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     flex-wrap: wrap;
 }
+
 #input-box{
     flex: 1 1 50%;
     min-width: 120px;
